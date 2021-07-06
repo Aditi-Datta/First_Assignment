@@ -5,6 +5,7 @@ h1{
     font-size: 30px;
     padding-top: 25px;
 }
+
 .orange-color{
     color: orange;
 }
@@ -12,12 +13,13 @@ h1{
     width: 50%;
     padding-left: 20px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width img{
     width: 75%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -29,4 +31,32 @@ section{
 .about-us{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+.my-recipies h1{
+     text-align: center;
+}
+.my-recipies p{
+    padding: 5px 250px;
+    text-align: center;
+}
+.recipe{
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 100px rgb(197, 178, 178);
+}
+.recipe img{
+ 
+    align-self: center;
+    padding-top: 20px;
+    border-radius: 25px;
+}
+#footer-align{
+    text-align: center;
+    background-color: black;
+    color:gray;
 }
